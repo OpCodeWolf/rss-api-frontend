@@ -1,0 +1,14 @@
+services:
+  rss-api-frontend:
+    container_name: rss-api-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    restart: always
+    # env_file:
+    #   - .env
+    environment:
+      NODE_ENV: production  # Set the environment variable as needed
+      # SERVER_URL: ${SERVER_URL}

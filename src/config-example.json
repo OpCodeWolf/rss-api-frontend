@@ -1,0 +1,5 @@
+{
+  "serverPort": 4000,
+  "serverUrl": "https://rssfrontend.example.com",
+  "backendAPIBaseUrl": "https://rss.example.com"
+}
