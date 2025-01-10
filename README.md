@@ -88,4 +88,6 @@ To log in with the default admin user account, use the following credentials:
 - **Username**: `admin`
 - **Password**: `admin123`
 
+**Please note: This project is not production ready and is currently a personal project. The login system needs a lot of work.**
+
 You can also view the UI specification in the [rss-api-frontend-spec.md](rss-api-frontend-spec.md) file.
